@@ -879,7 +879,12 @@ zope-event==5.0
     # via gevent
 zope-interface==5.4.0
     # via gevent
+oracledb==2.4.1
+    # oracledb
 zstandard==0.23.0
     # via
     #   -c requirements/base.txt
     #   flask-compress
+# The following packages are considered to be unsafe in a requirements file:
+# pip
+# setuptools
